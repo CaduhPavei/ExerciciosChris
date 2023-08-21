@@ -1,4 +1,4 @@
-/*3) Elabore um programa que leia um vetor X com 10 números e calcule
+package ListaVetor;/*3) Elabore um programa que leia um vetor X com 10 números e calcule
      e imprima a diferença entre o maior e o menor elemento existente no vetor,
      bem como as posições que o maior e o menor ocupam no conjunto de dados: */
 import java.util.ArrayList;

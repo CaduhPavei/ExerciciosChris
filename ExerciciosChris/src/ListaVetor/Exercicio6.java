@@ -1,4 +1,4 @@
-/*6) Elabore um programa que leia 5 números inteiros em um vetor A.
+package ListaVetor;/*6) Elabore um programa que leia 5 números inteiros em um vetor A.
      Construir um vetor B de mesma dimensão, com os mesmo elementos do vetor A, os quais devem estar invertidos,
      ou seja, o primeiro elemento do vetor A passa a ser o último elemento do vetor B,
      o segundo elemento do vetor A, passa a ser o penúltimo elemento do vetor B, e assim por diante.

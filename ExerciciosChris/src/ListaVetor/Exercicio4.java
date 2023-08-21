@@ -1,4 +1,4 @@
-//4) Elabore um programa que entre com 5 números inteiros em um vetor A
+package ListaVetor;//4) Elabore um programa que entre com 5 números inteiros em um vetor A
 // e imprima o índice do primeiro número negativo, se houver. Caso não existam números negativos,
 // imprimir a seguinte mensagem "Negativo não encontrado".
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-//2) Elabore um programa que leia 5 números inteiros em um vetor A, e gere e imprima o vetor T com o triplo dos valores do vetor A:
+package ListaVetor;//2) Elabore um programa que leia 5 números inteiros em um vetor A, e gere e imprima o vetor T com o triplo dos valores do vetor A:
 
 import java.util.ArrayList;
 import java.util.Scanner;
