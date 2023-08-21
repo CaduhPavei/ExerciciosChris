@@ -19,8 +19,7 @@ public class Exercicio1 {
             P1.push(num);
         }
         while (!P1.isEmpty()) {
-            int num = P1.pop();
-            P3.push(num);
+           P3.push(P1.pop());
         }
         while (!P3.isEmpty()){
             int num2 = P3.pop();

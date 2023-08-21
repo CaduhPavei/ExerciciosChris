@@ -15,12 +15,11 @@ public class Exercicio2 {
         for(int i=0;i<5;i++){
             System.out.println("Digite os elementos a serem adicionados e invertidos: ");
             int num = scan.nextInt();
-            P2.push(num);
+            P.push(num);
         }
-        while (P.isEmpty()) {
-            int num2 = P2.pop();
-            P.push(num2);
+        while (!P.isEmpty()) {
+            P2.push(P.pop());
         }
-        System.out.println("Pilha P invertida: " + P);
+        System.out.println("Pilha P invertida: " + P2);
     }
 }
