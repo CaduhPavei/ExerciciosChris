@@ -18,7 +18,7 @@ public class Exercicio1 {
             int num = scan.nextInt();
             P1.push(num);
         }
-        while (P3.isEmpty()) {
+        while (!P1.isEmpty()) {
             int num = P1.pop();
             P3.push(num);
         }
