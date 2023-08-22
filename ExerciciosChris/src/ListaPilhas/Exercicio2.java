@@ -11,6 +11,7 @@ public class Exercicio2 {
         Scanner scan = new Scanner(System.in);
         Stack<Integer> P = new Stack<>();
         Stack<Integer> P2 = new Stack<>();
+        Stack<Integer> P3 = new Stack<>();
 
         for(int i=0;i<5;i++){
             System.out.println("Digite os elementos a serem adicionados e invertidos: ");
@@ -20,6 +21,12 @@ public class Exercicio2 {
         while (!P.isEmpty()) {
             P2.push(P.pop());
         }
-        System.out.println("Pilha P invertida: " + P2);
+        while (!P2.isEmpty()){
+            P3.push(P2.pop());
+        }
+        while (!P3.isEmpty()){
+            P.push(P3.pop());
+        }
+        System.out.println("Pilha P invertida: " + P);
     }
 }
